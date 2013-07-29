@@ -1,0 +1,7 @@
+%h1 Piglatin Translator
+#translator
+  = form_tag('/translate') do
+    = label_tag 'word', 'Word'
+    = text_field_tag 'word'
+    = submit_tag 'Translate'
+
